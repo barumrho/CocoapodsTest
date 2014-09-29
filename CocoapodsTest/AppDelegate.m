@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <AFNetworking/AFNetworking.h>
+#import "GAI.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [GAI class];
     return YES;
 }
 
